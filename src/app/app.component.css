@@ -1,0 +1,12 @@
+.navbar-brand {
+    font-size: 28px; /* Aumenta o tamanho */
+    font-weight: bold; /* Negrito para destaque */
+    font-family: 'Poppins', sans-serif; /* Usa uma fonte moderna */
+    color: white !important; /* Mantém a cor branca */
+    text-decoration: none; /* Remove sublinhado */
+    transition: all 0.3s ease-in-out; /* Efeito suave */
+}
+.navbar-brand:hover {
+    color: #ffcc00 !important; /* Amarelo suave ao passar o mouse */
+    transform: scale(1.1); /* Dá um efeito de leve aumento */
+}

@@ -1,0 +1,13 @@
+<div class="container mt-4">
+  <h2 class="text-center text-primary mb-4">Últimos Posts</h2>
+
+  <div *ngFor="let post of posts" class="card post-card">
+    <div class="card-body">
+      <h3 class="card-title">{{ post.title }}</h3>
+      <p class="card-text">{{ post.content }}</p>
+      <p class="text-muted"><strong>Autor:</strong> {{ post.author }}</p>
+      <p class="text-muted"><em>Publicado em: {{ post.date }}</em></p>
+      <a [routerLink]="['/posts', post.id]" class="btn btn-primary">Ler mais</a>
+    </div>
+  </div>
+</div>

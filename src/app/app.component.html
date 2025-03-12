@@ -1,0 +1,27 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" routerLink="/">TechSphere</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" routerLink="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="/posts">Posts</a></li>
+          <li class="nav-item"><a class="nav-link" routerLink="/about">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main class="container mt-4">
+  <div class="jumbotron text-center bg-light p-4 rounded">
+    <h1 class="display-5"><strong>Descubra o Mundo da Tecnologia!</strong></h1>
+    <p class="lead">Fique por dentro das últimas novidades sobre inovação, programação e muito mais.</p>
+    <a class="btn btn-primary btn-lg" routerLink="/posts">Explorar Conteúdos</a> 
+  </div>
+</main>
+
+<router-outlet></router-outlet>

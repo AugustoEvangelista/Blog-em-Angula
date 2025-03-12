@@ -1,0 +1,28 @@
+.post-detail-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #555;
+    font-size: 1.1rem;
+}
+
+.text-muted {
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    border-radius: 6px;
+    font-weight: bold;
+}

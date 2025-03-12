@@ -1,0 +1,18 @@
+<div class="container mt-4">
+    <div *ngIf="post; else notFound" class="card post-detail-card">
+        <div class="card-body">
+            <h2 class="card-title">{{ post.title }}</h2>
+            <p class="text-muted"><strong>Autor:</strong> {{ post.author }}</p>
+            <p class="text-muted"><em>Publicado em: {{ post.date }}</em></p>
+            <p class="card-text">{{ post.content }}</p>
+            <p class="card-text">{{ post.details }}</p>
+            <button class="btn btn-primary mt-3" (click)="goBack()">Voltar</button>
+        </div>
+    </div>
+
+    <ng-template #notFound>
+        <div class="alert alert-danger text-center mt-4">
+        <p>Post não encontrado.</p>
+        </div>
+    </ng-template>
+</div>
